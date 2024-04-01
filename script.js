@@ -1,11 +1,12 @@
 function firstChar(text) {
+	text=text.trim();
 	if(text.length>0){
 		return text[0];
 	}else{
 		return "";
 	}
 }
-  // your code here
+
 
 // Do not change the code below
 
